@@ -1,0 +1,27 @@
+body header,
+body footer {
+  text-align: center;
+}
+
+body main {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  gap: 20px;
+}
+
+body main .card {
+  width: 16.6666666667%;
+  border: 1px solid blue;
+}
+
+body main .card h3 {
+  color: blue;
+}
+
+body main .card div {
+  display: flex;
+  flex-direction: column;
+}
+

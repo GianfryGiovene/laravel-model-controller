@@ -1,1 +1,26 @@
 //
+
+body{
+    header,footer{
+        text-align: center;
+    }
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: auto;
+        gap: 20px;
+        .card{
+            width: calc(100% / 6);
+            border: 1px solid blue;
+            h3{
+                color: blue;
+            }
+            div{
+                display: flex;
+                flex-direction: column;
+
+            }
+        }
+    }
+}
